@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>To Do List</h1>
+    <div class="todo-input-grid">
+      <input
+        class="js-input name-input"
+        type="text"
+        placeholder="Add a new task"
+      />
+      <input class="js-due-date-input due-date-input" type="date" />
+      <button class="add-btn" onclick="addToDo()">Add</button>
+    </div>
+
+    <div class="js-todo-list todo-grid"></div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
